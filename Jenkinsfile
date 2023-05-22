@@ -13,10 +13,10 @@ pipeline{
 
                 script{
                      
-                    gitCheckout{
+                    gitCheckout(
                         branch: "main",
                         url: "https://github.com/maheswar443/mrdevops_java_app.git"
-                    }
+                    )
                 }
             }
         }
